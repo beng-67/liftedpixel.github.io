@@ -1,0 +1,64 @@
+body {
+  font-family: "Comic Sans MS", sans-serif;
+  background-color: black;
+  color: lightgray;
+  margin: 50px;
+  padding: 0px;
+}
+
+div#top {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 35px;
+  background-image: url("pinkdust.png");
+}
+
+div#bottom {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 35px;
+  background-image: url("pinkdust.png");
+}
+
+div#left {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 35px;
+  height: 100%;
+  background-image: url("pinkdust.png");
+}
+
+div#right {
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  width: 35px;
+  height: 100%;
+  background-image: url("pinkdust.png");
+}
+
+.lipsum {
+  font-size: 9pt;
+}
+
+h3 {
+  color: white;
+  background-image: url("pinkdust.png");
+  /* Background pattern from Subtle Patterns */
+  padding: 15px;
+}
+
+a {
+  color: lightgray;
+  font-family: Arial, sans-serif;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+}
