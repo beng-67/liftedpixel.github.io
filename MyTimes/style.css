@@ -1,0 +1,53 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+span {
+  border: 1px solid red;
+}
+
+div {
+  border: 1px solid green;
+}
+
+p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+#header {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  height: 75px;
+  border: 1px solid orange;
+}
+
+#content {
+  padding-top: 100px;
+  display: flex;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
+
+.mainimgheadline {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
+}
