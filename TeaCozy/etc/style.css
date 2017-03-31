@@ -5,6 +5,7 @@ body {
   font-size: 22px;
   opacity: 0.9;
   text-align: center;
+  margin: 0px 20px;
 }
 
 #header {
@@ -57,4 +58,59 @@ nav a {
 #banner h4 {
   margin: 0px;
   padding: 10px;
+}
+
+#totm {
+  width: 1000px;
+  margin: 50px auto;
+}
+
+#totm .menu {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#totm img {
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+}
+
+#totm p {
+  margin: 0px;
+  padding: 0px;
+}
+
+#locations {
+  height: 500px;
+  width: 1200px;
+  margin: 0 auto;
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+}
+
+
+#locations .holdem {
+  margin: 0px auto;
+  display: flex;
+}
+
+#locations span {
+  display: block;
+  background-color: black;
+  width: 300px;
+  margin: 20px;
+}
+
+#footer {
+  height: 200px;
+}
+
+#copy {
+  text-align: left;
 }
