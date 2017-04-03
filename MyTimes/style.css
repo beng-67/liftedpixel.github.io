@@ -1,98 +1,58 @@
-body {
+* {
   margin: 0px;
   padding: 0px;
 }
 
-span {
+div {
   border: 1px solid red;
 }
 
-div {
+span {
   border: 1px solid green;
 }
 
-p {
-  font-family: Georgia;
-  font-size: 17px;
-  color: black;
+.flex {
+  display: flex;
 }
 
-#header {
-  display: flex;
-  justify-content: flex-end;
-  position: fixed;
-  background-color: white;
-  width: 100%;
-  height: 75px;
-  border: 1px solid orange;
+.block {
+  display: block;
 }
 
 #content {
-  padding-top: 100px;
-  width: 100%;
   display: flex;
   justify-content: center;
 }
 
-.left {
-  max-width: 630px;
+#leftcolumn {
+  width: 630px;
 }
 
-.smallstoryholder {
-  border: 5px solid pink;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.textstoryholder {
-}
-
-.stories, .earth, .camera, .cats{
-  height: 300px;
+#middlecolumn {
   width: 300px;
 }
 
-.stores, .earth, .camera, .cats span {
-  font-family: Georgia;
-  font-weight: bold;
-  font-size: 30px;
-  color: white;
+#rightcolumn {
+  width: 240px;
 }
 
-.stories p:first-of-type {
-  font-size: 30px;
-  font-weight: bold;
-}
-
-.earth {
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
-}
-
-.camera {
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
-}
-
-.cats {
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
-}
-
-.middle {
-  max-width: 300px;
-}
-
-.right {
-  max-width: 240px;
-}
-
-.mainimgheadline {
+#footer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
   height: 300px;
-  width: 629px;
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
 }
 
-.mainimgheadline span {
+#footer .logo {
   font-family: Georgia;
+  font-size: 16px;
   font-weight: bold;
-  font-size: 40px;
   color: white;
+  border-right: 2px solid white;
+  padding: 0px 20px;
 }
