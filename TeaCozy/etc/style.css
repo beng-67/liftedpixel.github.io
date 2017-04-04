@@ -94,13 +94,13 @@ nav a {
 #locations {
   height: 500px;
   width: 1200px;
-  margin: 0 auto;
+  margin: 0px auto;
   background-position: 0px -50px;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
 }
 
 #locations h2 {
-  padding: 0px;
+  padding-top: 75px;
   margin: 0px;
 }
 
