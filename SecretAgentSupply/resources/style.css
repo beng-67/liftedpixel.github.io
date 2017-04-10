@@ -1,0 +1,129 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: Helvetica;
+}
+
+header {
+  background-color: black;
+  color: white;
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+header span {
+  display: flex;
+  align-items: center;
+  width: 960px;
+  margin: 0 auto;
+}
+
+header img {
+  height: 1.5rem;
+  width: auto;
+  margin-left: 0.5rem;
+  margin-right: 1rem;
+}
+
+header p {
+  margin: 0.66rem 0;
+}
+
+#heroimage {
+  height: 25rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
+}
+
+#heroimage span {
+  display: block;
+  height: 100%;
+  width: 960px;
+  margin: 0 auto;
+  /* margin-top: 9rem; */
+}
+
+#herotext {
+  display: block;
+  background-color: black;
+  color: white;
+  width: 20rem;
+  padding: 2rem 3rem;
+}
+
+.ht_one {
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.ht_two {
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+nav {
+  background-color: firebrick;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav div {
+  height: 100%;
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav span {
+  margin: 0.75rem 0;
+}
+
+#products {
+  margin-top: 3rem;
+}
+
+#productsholder {
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+}
+
+#products span {
+  display: flex;
+  flex-wrap: wrap;
+  width: 30%;
+  border: 4px solid black;
+}
+
+#products img {
+  height: 9rem;
+  width: auto;
+  margin: 2rem auto;
+}
+
+.ptext {
+  background-color: black;
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+
+.ptext p {
+  border: 1px solid yellow;
+}
