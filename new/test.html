@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>A pure CSS parallax feature detection demo by Keith Clark</title>
+<style>
+
+section {
+  position: relative;
+  padding: 40% 5%;
+}
+
+#content {
+  max-width: 45em;
+  margin: auto;
+}
+
+#background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+@supports ((perspective: 1px) and (not (-webkit-overflow-scrolling: touch))) {
+  html, body {
+    overflow: hidden;
+    height:100%;
+  }
+
+  body {
+    transform: translateZ(0px); /* Fix paint issues in Edge && Safari H/W acceleration */
+  }
+
+  #holder {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective: 300px;
+    perspective-origin: 100% 100%;
+  }
+
+  section, #content {
+    transform-style: preserve-3d;
+    transform: translateZ(0); /* Safari H/W acceleration */
+  }
+
+  #background {
+    transform: translateZ(-150px) scale(1.5);
+    transform-origin: 100% 100%;
+  }
+}
+
+</style>
+
+  <div class="slides">
+    <div class="slide" id="slide-1">
+      <div class="slide__bg"></div>
+      <div class="slide__content"></div>
+    </div>
+  </div>
+
+  <div id="holder">
+    <section>
+      <div id="background"></div>
+      <div id="content"></div>
+    </section>
+  </div>
