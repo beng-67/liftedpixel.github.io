@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 html {
   font-size: 18px;
 }
@@ -45,4 +50,43 @@ header {
 #herotext {
   background-color: white;
   margin-top: 10rem;
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 0 5rem;
+  display: inline-block;
+}
+
+#herotext p {
+  margin: 1.5rem 0;
+}
+
+#things {
+  width: 960px;
+  margin: 3rem auto;
+  display: flex;
+  justify-content: center;
+  align-content: stretch;
+}
+
+.thingholder {
+  display: flex;
+  justify-content: center;
+  align-content: stretch;
+  flex-wrap: wrap;
+  margin: 0 6rem;
+}
+
+.imgholder {
+  width: auto;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 auto 10px;
+}
+
+.thingtxt {
+  text-align: center;
+  line-height: 25px;
 }
