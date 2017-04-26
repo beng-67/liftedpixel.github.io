@@ -49,6 +49,7 @@
 .campus-info-single {
   flex-flow: wrap column;
   border: 0;
+  height: auto;
 }
 
 .holder-img-campus-info {
@@ -87,8 +88,12 @@
   text-align: center;
 }
 
+#learning h2 {
+  line-height: 0.5rem;
+}
+
 .holder-courses {
-  justify-content: center;
+  justify-content: space-around;
   width: 100%;
   margin: 0 auto;
 }
@@ -111,4 +116,28 @@
   display: none;
 }
 
+.holder-vid {
+  height: auto;
+  width: 100%;
+  padding: 0;
+}
+
+#thesis {
+  padding-bottom: 24px;
+}
+.holder-thesis-txt {
+  display: none;
+}
+
+.holder-thesis-info {
+  display: none;
+}
+
+footer {
+  justify-content: flex-start;
+}
+
+.links {
+  display: none;
+}
 }
