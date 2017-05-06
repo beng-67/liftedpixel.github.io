@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+
+html {
+  font-size: 14px;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+  background-color: rgb(255, 255, 242);
+  color: rgb(74, 74, 74);
+  margin: 5.25rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: rgb(32, 64, 86);
+}
+
+h2 {
+  font-size: 1rem;
+  font-weight: bold;
+  color: rgb(32, 64, 86);
+}
+
+#game {
+  border: 1px solid blue;
+}
+
+.card {
+  background-color: rgb(32, 64, 86);
+  height: 12.5rem;
+  max-width: 12.5rem;
+  border: 4px solid #ffffff;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+.up {
+  background-color: hsl(25, 85%, 65%);
+  font-weight: 900;
+  font-size: 7rem;
+  color: rgb(255, 255, 255);
+}
+
+.off {
+  background-color: rgb(153, 153, 153);
+  font-weight: 900;
+  font-size: 7rem;
+  color: rgb(204, 204, 204);
+}
