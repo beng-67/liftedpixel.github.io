@@ -6,7 +6,6 @@ var MatchGame = {};
 */
 $(document).ready(function(){
   var $nums = MatchGame.generateCardValues();
-  console.log($nums);
   MatchGame.renderCards($nums,'#game');
 });
 
@@ -44,10 +43,11 @@ MatchGame.renderCards = function(cardValues, $game) {
   var x = 0;
   var y = cardValues.length;
   var $card;
+  $($game).data("flipped", []);
   var colorList = ['hsl(25, 85%, 65%)', 'hsl(55, 85%, 65%)', 'hsl(90, 85%, 65%)', 'hsl(160, 85%, 65%)', 'hsl(220, 85%, 65%)', 'hsl(265, 85%, 65%)', 'hsl(310, 85%, 65%)', 'hsl(360, 85%, 65%)'];
   while (x<y) {
-    console.log(cardValues[x]);
     $($card).data( {number: cardValues[x]} );
+    console.log($($card).data("number"));
     $($game).append("<div class='col-xs-3 card up' style='background-color: " + colorList[cardValues[x]] + "'>" + cardValues[x] + "</div>");
     x++;
   }
