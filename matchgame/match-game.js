@@ -9,6 +9,7 @@ $(document).ready(function(){
   MatchGame.renderCards($nums,'#game');
 });
 
+
 /*
   Generates and returns an array of matching card values.
  */

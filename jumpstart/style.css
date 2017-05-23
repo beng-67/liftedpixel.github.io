@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Monoton|Open+Sans');
+
+html {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  color: #000;
+}
+
+.active {
+  color: #399bd1;
+}
+
+nav {
+  background: #fff;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.navbar-brand {
+  float: right;
+}
+
+.container .jumbotron, .container-fluid .jumbotron {
+  border-radius: 0;
+  width: 100%;
+}
+
+
+.jumbotron {
+  background-image: url("./images/jumbotron-bike.jpg");
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 11.85rem 0;
+}
+
+.jumbotron h1 {
+  text-align: center;
+  font-family: "Monoton", monospace;
+  font-size: 7.1rem;
+  color: #fff;
+  text-shadow: -1px -1px #000, 1px -1px #000, -1px 1px #000, 1px 1px #000;
+}
+
+@media (max-width: 768px) {
+  .jumbotron h1 {
+    font-size: 5.7rem;
+  }
+}
+
+.jumbotron p {
+  width: 51.3rem;
+  color: #fff;
+  text-align: center;
+}
+
+.jumpinbutton {
+  margin: 2.8rem 100% 0 100%;
+  padding: 1.3rem 0;
+  min-width: 11.4rem;
+  background-color: #399bd1;
+  box-shadow: 0 0 3px rgba(0,0,0,0.5);
+}
+
+.jumpinbutton:hover {
+  box-shadow: 0 0 12px rgba(0,0,0,0.9);
+}
+
+.jumpinbutton:active {
+  box-shadow: 0 0 0 rgba(0,0,0,0.5);
+}
+
+.fp {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #399bd1;
+}
+
+.pc {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #399bd1;
+}
+
+.project {
+  margin-bottom: 5.85rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  line-height: 1.4;
+  color: rgba(0,0,0,0.7);
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.foot {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 5.2rem 2rem;
+  background: #f3f3f3;
+}
+
+.foot h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.foot p {
+  width: 42rem;
+  margin-top: 1.4rem;
+  text-align: center;
+}
