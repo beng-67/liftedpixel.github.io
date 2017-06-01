@@ -29,3 +29,18 @@ a {
   font-size: 21px;
   color: gray;
 }
+
+#videoholder {
+  max-height: 720px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+video {
+  height: 100%;
+  width: 100%;
+}
+
+.camp {
+  max-width: 100%;
+}
