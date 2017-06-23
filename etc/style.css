@@ -27,7 +27,7 @@ div#bottom {
 div#left {
   position: fixed;
   left: 0px;
-  top: 0px;
+  bottom: 0px;
   width: 35px;
   height: 100%;
   background-image: url("pinkdust.png");
@@ -36,7 +36,7 @@ div#left {
 div#right {
   position: fixed;
   right: 0px;
-  top: 0px;
+  bottom: 0px;
   width: 35px;
   height: 100%;
   background-image: url("pinkdust.png");
